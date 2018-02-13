@@ -7,6 +7,7 @@ target 'FBSnapshotTestCaseExample' do
 
   # Pods for FBSnapshotTestCaseExample
   pod 'iOSSnapshotTestCase'
+  pod 'SnapKit', '~> 4.0.0'
 
   target 'FBSnapshotTestCaseExampleTests' do
     inherit! :search_paths
