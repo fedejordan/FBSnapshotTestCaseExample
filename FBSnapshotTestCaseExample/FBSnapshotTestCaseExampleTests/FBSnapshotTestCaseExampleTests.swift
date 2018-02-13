@@ -13,11 +13,12 @@ class FBSnapshotTestCaseExampleTests: FBSnapshotTestCase {
     
     override func setUp() {
         super.setUp()
-        self.recordMode = false
+        self.recordMode = true
+        self.isDeviceAgnostic = true
     }
     
     func testExample() {
-        let viewController: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController")
+        let viewController: UIViewController = ViewController()
         FBSnapshotVerifyView(viewController.view)
     }
     
