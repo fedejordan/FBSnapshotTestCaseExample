@@ -13,7 +13,7 @@ class FBSnapshotTestCaseExampleTests: FBSnapshotTestCase {
     
     override func setUp() {
         super.setUp()
-        self.recordMode = true
+        self.recordMode = false
         self.isDeviceAgnostic = true
     }
     
