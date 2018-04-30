@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="25_macbook-512" translatesAutoresizingMaskIntoConstraints="NO" id="57q-Iy-h7l">
-                                <rect key="frame" x="40" y="124" width="295" height="295"/>
+                                <rect key="frame" x="40" y="104" width="295" height="295"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="57q-Iy-h7l" secondAttribute="height" multiplier="1:1" id="aws-Yv-BdR"/>
                                 </constraints>
@@ -50,18 +50,26 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#SwiftBA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWg-bm-bY4">
+                                <rect key="frame" x="138.5" y="439" width="98" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.63306361609999995" green="0.86358815430000002" blue="0.86358815430000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="57q-Iy-h7l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="26v-MM-P1W"/>
                             <constraint firstItem="1Df-y4-sFo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6t2-ZV-Ij2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bIG-dX-gf2" secondAttribute="trailing" constant="20" id="7wj-rQ-T5q"/>
-                            <constraint firstItem="57q-Iy-h7l" firstAttribute="top" secondItem="elG-jT-XeU" secondAttribute="bottom" constant="60" id="ATq-fa-wTI"/>
+                            <constraint firstItem="57q-Iy-h7l" firstAttribute="top" secondItem="elG-jT-XeU" secondAttribute="bottom" constant="40" id="ATq-fa-wTI"/>
                             <constraint firstItem="bIG-dX-gf2" firstAttribute="top" secondItem="1Df-y4-sFo" secondAttribute="bottom" constant="20" id="Boj-42-nVV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="elG-jT-XeU" secondAttribute="trailing" constant="20" id="FPN-lT-mwC"/>
                             <constraint firstItem="elG-jT-XeU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="KRx-Ik-pO7"/>
+                            <constraint firstItem="ZWg-bm-bY4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qem-GL-6ky"/>
                             <constraint firstItem="elG-jT-XeU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ROc-a6-I7x"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bIG-dX-gf2" secondAttribute="bottom" constant="20" id="Vpb-Oe-N1p"/>
+                            <constraint firstItem="ZWg-bm-bY4" firstAttribute="top" secondItem="57q-Iy-h7l" secondAttribute="bottom" constant="40" id="ZJ6-R4-eVn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="57q-Iy-h7l" secondAttribute="trailing" constant="40" id="bv7-vh-DnC"/>
                             <constraint firstItem="bIG-dX-gf2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eaL-Kd-gmo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Df-y4-sFo" secondAttribute="trailing" constant="20" id="zo3-7x-x6K"/>

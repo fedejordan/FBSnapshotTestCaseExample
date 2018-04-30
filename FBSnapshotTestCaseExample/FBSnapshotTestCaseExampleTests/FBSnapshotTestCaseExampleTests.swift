@@ -13,7 +13,8 @@ class FBSnapshotTestCaseExampleTests: FBSnapshotTestCase {
     
     override func setUp() {
         super.setUp()
-        self.recordMode = false
+//        self.recordMode = true
+//        self.agnosticOptions = FBSnapshotTestCaseAgnosticOption.screenSize
     }
     
     func testExample() {
